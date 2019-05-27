@@ -10,20 +10,21 @@ module.exports = {
         { elem: 'js', url: 'https://code.jquery.com/jquery-3.2.1.js' },
     ],
     scripts: [{ elem: 'js', url: 'login.min.js' }],
-    mods: { theme: 'islands' },
+    mods: { theme: 'kirgintcev'},
     mix: {
         block: 'theme',
-        mods: { color: 'kirgintcev', space: 'default', size: 'default', gap: 'small', menu: 'default', breakpoint: 'default', font: 'ibm' }
+        mods: { color: 'kirgintcev', space: 'default', size: 'default', gap: 'small', menu: 'default', breakpoint: 'default', font: 'ibm'}
     },
     content: [{
         block: 'pt-form',
-        mods: { border: 'all', shadow: 'cloud' },
+        mods: { border: 'all', shadow: 'cloud'},
+         mix: { block: 'decorator', mods: { 'indent-a': 'l', 'space-a': 'l' } },
         content: [{
                 elem: 'item',
-                elemMods: { 'space-v': 'm', 'space-h': 'l', border: 'bottom' },
+                elemMods: {},
                 content: [{
                     block: 'text',
-                    mods: { size: 'xxl', view: 'primary' },
+                    mods: { size: 'xxl',type:'h1', weight:'bold'},
                     content: 'Подключение'
                 }]
             },
@@ -33,10 +34,10 @@ module.exports = {
 
                     {
                         elem: 'item',
-                        elemMods: { 'space-v': 'xs', 'space-h': 'l', border: 'bottom' },
+                        elemMods: {  border: 'bottom' },
                         content: [{
                                 elem: 'item',
-                                elemMods: { 'space-v': 'xs', distribute: 'default', 'vertical-align': 'center' },
+                                elemMods: { 'space-b': 'm', distribute: 'default', 'vertical-align': 'center' },
                                 content: [{
                                         elem: 'label',
                                         mix: { block: 'text', mods: { size: 'm', view: 'primary' } },
@@ -46,14 +47,16 @@ module.exports = {
                                         elem: 'control',
                                         content: {
                                             block: 'input',
-                                            mods: { theme: 'islands', size: 'm', width: 'available' }
+                                            mods: { theme: 'kirgintcev', size: 'm', width: 'available' },
+                                            placeholder : 'Россия'
+
                                         }
                                     }
                                 ]
                             },
                             {
                                 elem: 'item',
-                                elemMods: { 'space-v': 'xs', distribute: 'default', 'vertical-align': 'center' },
+                                elemMods: {  'space-b': 'm', distribute: 'default', 'vertical-align': 'center' },
                                 content: [{
                                         elem: 'label',
                                         mix: { block: 'text', mods: { size: 'm', view: 'primary' } },
@@ -63,14 +66,14 @@ module.exports = {
                                         elem: 'control',
                                         content: {
                                             block: 'input',
-                                            mods: { theme: 'islands', size: 'm', width: 'available' }
+                                            mods: { theme: 'kirgintcev', size: 'm', width: 'available' }
                                         }
                                     }
                                 ]
                             },
                             {
                                 elem: 'item',
-                                elemMods: { 'space-v': 'xs', distribute: 'default', 'vertical-align': 'center' },
+                                elemMods: {  'space-b': 'xxxl', distribute: 'default', 'vertical-align': 'center' },
                                 content: [{
                                         elem: 'label',
                                         mix: { block: 'text', mods: { size: 'm', view: 'primary' } },
@@ -80,22 +83,19 @@ module.exports = {
                                         elem: 'control',
                                         content: {
                                             block: 'input',
-                                            mods: { theme: 'islands', size: 'm', width: 'available' }
+                                            mods: { theme: 'kirgintcev', size: 'm', width: 'available' }
+
                                         }
                                     }
                                 ]
                             },
                             {
                                 elem: 'item',
-                                elemMods: { 'space-v': 'm', 'space-h': 'l', border: 'bottom', distribute: 'between' },
-                                content: [{
-                                        block: 'button',
-                                        mods: { theme: 'islands', size: 'm', type: 'link' },
-                                        text: ' '
-                                    },
+                                elemMods: { border: 'bottom', distribute: 'right' },
+                                content: [
                                     {
                                         block: 'button',
-                                        mods: { theme: 'islands', size: 'm', view: 'action' },
+                                        mods: { theme: 'kirgintcev', size: 'm', view: 'action' },
                                         text: 'Продолжить'
                                     }
                                 ]

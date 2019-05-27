@@ -1,8 +1,70 @@
-.pt-form {
-    border-radius: 4px!important;
-    padding: 30px;
-    font-family: "Yandex Sans Text Web", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif!important;
-    width: 650px;
+.page_theme_kirgintcev {
+    border-radius: 4px;
+    font-family: "Yandex Sans Text Web", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    width: 700px;
     background-color: white;
     margin: auto;
+}
+
+.pt-form_shadow_cloud.pt-form_shadow_cloud{
+    box-shadow: 0 4px 32px 0px rgba(0,65,141,.16),0 12px 20px -12px rgba(0,0,0,.5);
+
+}
+
+.button_theme_kirgintcev{
+    font-size:16px;
+    line-height: 40px;
+    background: #00bf96;
+    color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    border-radius: 4px;
+
+}
+.button__text{
+    margin: 24px;
+}
+
+.button_theme_kirgintcev:hover {
+    font-size:16px;
+    line-height: 40px;
+    background: #00d6a8;
+    color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input{
+    font: inherit;
+    line-height: inherit;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: none;
+    -webkit-appearance: none;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 2px rgba(0,0,0,.12);
+    height: 40px;
+    padding: 10px;
+}
+input:focus{
+    font: inherit;
+    line-height: inherit;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: none;
+    -webkit-appearance: none;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 2px rgba(0,0,0,.12);
+    height: 40px;
+    padding: 10px;
 }
