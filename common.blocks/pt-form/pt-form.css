@@ -1,55 +1,8 @@
-body{
-  background-color: #f7f7f7!important;
-  margin: 100px!important;
-}
-.pt-form{
+.pt-form {
     border-radius: 4px!important;
     padding: 30px;
-    font-family: "Yandex Sans Text Web",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif!important;
+    font-family: "Yandex Sans Text Web", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif!important;
     width: 650px;
     background-color: white;
     margin: auto;
-   }
-.pt-form_shadow_cloud{
-  box-shadow: 0 4px 32px 0px rgba(0,65,141,.16),0 12px 20px -12px rgba(0,0,0,.5)!important;
-
-}
-input{
-      border-radius: 4px;
-      box-shadow: inset 0 0 0 2px rgba(0,0,0,.12)!important;
-      height: 40px!important;
-      padding: 10px!important;
-}
-
- .pt-form__item{
-   align-items: center;
-   margin-top: 14px;
-}
-.text_size_xxl{
-  font-weight: 600!important;
-  font-size:30px!important;
-  margin-bottom: 30px;
-}
-button{
-  font-size:16px!important;
-  margin: 10px!important;
-  line-height: 40px!important;
-  background: #00bf96!important;
-  color: white!important;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2)!important;
-
-}
-
-.button_size_m{
-
-  width: 144px!important;
-  margin:0px!important;
-  border-radius:4px!important;
-
-}
-.pt-form__item_distribute_between{
-      margin-left: auto;
-      margin-right: 0;
-      width: 400px;
-      margin-top: 40px!important;
 }
