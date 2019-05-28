@@ -15,10 +15,11 @@ module.exports = {
         block: 'theme',
         mods: { color: 'kirgintcev', space: 'default', size: 'default', gap: 'small', menu: 'default', breakpoint: 'default', font: 'ibm'}
     },
+
     content: [{
         block: 'pt-form',
         mods: { border: 'all', shadow: 'cloud'},
-         mix: { block: 'decorator', mods: { 'indent-a': 'l', 'space-a': 'l' } },
+        mix: { block: 'decorator', mods: { 'space-a': 'xl' } },
         content: [{
                 elem: 'item',
                 elemMods: {},
@@ -95,7 +96,7 @@ module.exports = {
                                 content: [
                                     {
                                         block: 'button',
-                                        mods: { theme: 'kirgintcev', size: 'm', view: 'action' },
+                                        mods: { theme: 'kirgintcev', size: 'xxl', view: 'action' },
                                         text: 'Продолжить'
                                     }
                                 ]

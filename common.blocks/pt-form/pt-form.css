@@ -1,37 +1,8 @@
-.page_theme_kirgintcev {
+.pt-form{
     border-radius: 4px;
-    font-family: "Yandex Sans Text Web", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    width: 700px;
-    background-color: white;
-    margin: auto;
-}
+    width: var(--screen-s);
+    margin: 0 auto;
 
-.pt-form_shadow_cloud.pt-form_shadow_cloud{
-    box-shadow: 0 4px 32px 0px rgba(0,65,141,.16),0 12px 20px -12px rgba(0,0,0,.5);
-
-}
-
-.button_theme_kirgintcev{
-    font-size:16px;
-    line-height: 40px;
-    background: #00bf96;
-    color: white;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-    border-radius: 4px;
-
-}
-.button__text{
-    margin: 24px;
-}
-
-.button_theme_kirgintcev:hover {
-    font-size:16px;
-    line-height: 40px;
-    background: #00d6a8;
-    color: white;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-    border-radius: 4px;
-    cursor: pointer;
 }
 
 input{
@@ -48,10 +19,36 @@ input{
     -webkit-appearance: none;
     border-radius: 4px;
     box-shadow: inset 0 0 0 2px rgba(0,0,0,.12);
-    height: 40px;
+    height: var(--space-xxxl);
     padding: 10px;
 }
 input:focus{
 
   box-shadow: inset 0 0 0 2px #00bf96;
+}
+::placeholder {
+  color: var(--color-typo-secondary);
+}
+
+
+.button_theme_kirgintcev{
+    font-size:var(--size-xl);
+    padding-left: var(--space-l);
+    padding-right:  var(--space-l);
+    line-height: var(--space-xxxl);
+    background: var(--color-button-bg);
+    color: var(--color-white-base);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    border-radius: 4px;
+
+}
+
+.button_theme_kirgintcev:hover {
+    font-size:var(--size-xl);
+    line-height: var(--space-xxxl);
+    background: var(--color-button-focus);
+    color: var(--color-white-base);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    border-radius: 4px;
+    cursor: pointer;
 }

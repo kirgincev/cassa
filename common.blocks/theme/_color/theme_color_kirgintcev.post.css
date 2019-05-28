@@ -165,7 +165,18 @@ $color-link-hover: color($color-base-path l(-7%));
 
 /* Цвет ховера ссылки */
 
+$color-bg-button: #00bf96;
+
+$color-focus-button: #00d6a8;
+
+
 .theme_color_kirgintcev {
+  /* Базовый белый*/
+    --color-white-base:$color-base-essential;
+    /* Цвета кнопки фокус*/
+    --color-button-focus:$color-focus-button;
+    /* Цвета кнопки дефолт*/
+    --color-button-bg:$color-bg-button;
     /* Цвета блоков */
     --color-bg-brand: $color-bg-brand;
     /* Цвет фона брендированый */
